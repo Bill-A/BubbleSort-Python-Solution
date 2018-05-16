@@ -5,6 +5,12 @@ Bubble sort is a simple sorting algorithm that repeatedly steps through the list
 ### Solving the Algorithm ... Test-First?
 Considering this list -
 
-[2, 1]
+[5470, 58]
 
-The easiest way to make the test pass is to return [1, 2]
+The easiest way to make the test pass is to return [58, 5470]
+
+Next, let's consider this list of three elements - 
+
+[5470, 58, 19]
+
+For the first iteration of continuously stepping through the list, we will use a "for loop" and an "if" statement; swapping adjacent items until the first item is moved into the correct ascending order. 
