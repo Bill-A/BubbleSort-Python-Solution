@@ -1,7 +1,6 @@
 class BubbleSort:
     @staticmethod
     def given(list):
-        list = [1, 2]
-        # print(a_list)
+        list = [58, 5470]
 
         return list
