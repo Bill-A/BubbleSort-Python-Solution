@@ -14,3 +14,14 @@ Next, let's consider this list of three elements -
 [5470, 58, 19]
 
 For the first iteration of continuously stepping through the list, we will use a "for loop" and an "if" statement; swapping adjacent items until the first item is moved into the correct ascending order. 
+
+Next, let's write some tests to determine if we are correctly swapping adjacent elements into numerical order during the first iteration through the list.
+
+Consider these lists of elements - 
+
+[1, 2, 3] should be [1, 2, 3]
+[1, 3, 2] should be [1, 2, 3]
+[5470, 58, 19, 60] should be [58, 19, 60, 5470]
+
+
+
