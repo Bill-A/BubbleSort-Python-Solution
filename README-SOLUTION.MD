@@ -35,3 +35,11 @@ Consider this list of elements -
 > [5470, 58, 19, 60] should be [58, 19, 60, 5470]
 
 ##### Note: At this point many of the previous tests will fail. Explain why. Also,these now failing tests are removed.
+
+Now, let's write another test for the functionality to fully sort the list.
+
+Consider this lists of elements - 
+
+
+
+> [5470, 58, 19, 60, 1998, 1960, 1957] should be [19, 58, 60, 1957, 1960, 1998, 5470] 
