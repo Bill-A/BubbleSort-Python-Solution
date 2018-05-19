@@ -1,20 +1,24 @@
+def swap(unsorted_list, x):
+    temp = unsorted_list[x]
+    unsorted_list[x] = unsorted_list[x + 1]
+    unsorted_list[x + 1] = temp
+
+
 class BubbleSort:
     @staticmethod
     def given(list):
-        index = 0
-        temp = 0
-        # print("The list is: ", list)
+        # print("Original list is: ", list)
 
         while True:
-            is_all_sorted = True
-            for index in range(len(list)-1):
+            to_last_index = len(list) - 1
+            list_is_sorted = True
+
+            for index in range(to_last_index):
                 if list[index] > list[index + 1]:
-                    temp = list[index]
-                    list[index] = list[index+1]
-                    list[index+1] = temp
-                    is_all_sorted = False
-                    # print("The list is: ", list)
+                    swap(list, index)
+                    list_is_sorted = False
+                    # print("Sorted list is: ", list)
             # print("\n")
-            if is_all_sorted:
+            if list_is_sorted:
                 break
         return list

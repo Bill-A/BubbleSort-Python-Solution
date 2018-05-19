@@ -43,3 +43,6 @@ Consider this lists of elements -
 
 
 > [5470, 58, 19, 60, 1998, 1960, 1957] should be [19, 58, 60, 1957, 1960, 1998, 5470] 
+
+
+Refactored the code to include a swap function. Also, renamed several variables so that the code is more readable. 
